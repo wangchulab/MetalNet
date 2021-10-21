@@ -1,0 +1,21 @@
+// P0A6G5
+graph {
+	"145C" [fillcolor="#FFED97" style=radial]
+	"148C" [fillcolor="#FFED97" style=radial]
+	"145C" -- "148C" [penwidth=1]
+	"145C" [fillcolor="#FFED97" style=radial]
+	"155C" [fillcolor="#FFED97" style=radial]
+	"145C" -- "155C" [penwidth=1]
+	"145C" [fillcolor="#FFED97" style=radial]
+	"161H" [fillcolor="#66B3FF" style=radial]
+	"145C" -- "161H" [penwidth=1]
+	"148C" [fillcolor="#FFED97" style=radial]
+	"155C" [fillcolor="#FFED97" style=radial]
+	"148C" -- "155C" [penwidth=1]
+	"148C" [fillcolor="#FFED97" style=radial]
+	"161H" [fillcolor="#66B3FF" style=radial]
+	"148C" -- "161H" [penwidth=1]
+	"155C" [fillcolor="#FFED97" style=radial]
+	"161H" [fillcolor="#66B3FF" style=radial]
+	"155C" -- "161H" [penwidth=1]
+}

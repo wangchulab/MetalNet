@@ -1,0 +1,12 @@
+// The Round Table
+graph {
+	"7E" [fillcolor="#FFA6FF" style=radial]
+	"9D" [fillcolor="#D3A4FF" style=radial]
+	"7E" -- "9D" [penwidth=1]
+	"7E" [fillcolor="#FFA6FF" style=radial]
+	"23H" [fillcolor="#66B3FF" style=radial]
+	"7E" -- "23H" [penwidth=1]
+	"9D" [fillcolor="#D3A4FF" style=radial]
+	"23H" [fillcolor="#66B3FF" style=radial]
+	"9D" -- "23H" [penwidth=1]
+}

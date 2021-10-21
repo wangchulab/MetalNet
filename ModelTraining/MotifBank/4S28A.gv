@@ -1,0 +1,12 @@
+// The Round Table
+graph {
+	"501C" [fillcolor="#FFED97" style=radial]
+	"504C" [fillcolor="#FFED97" style=radial]
+	"501C" -- "504C" [penwidth=1]
+	"501C" [fillcolor="#FFED97" style=radial]
+	"509C" [fillcolor="#FFED97" style=radial]
+	"501C" -- "509C" [penwidth=1]
+	"504C" [fillcolor="#FFED97" style=radial]
+	"509C" [fillcolor="#FFED97" style=radial]
+	"504C" -- "509C" [penwidth=1]
+}

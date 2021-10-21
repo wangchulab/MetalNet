@@ -1,0 +1,18 @@
+// The Round Table
+graph {
+	"94E" [fillcolor="#FFA6FF" style=radial]
+	"98D" [fillcolor="#D3A4FF" style=radial]
+	"94E" -- "98D" [penwidth=1]
+	"94E" [fillcolor="#FFA6FF" style=radial]
+	"100D" [fillcolor="#D3A4FF" style=radial]
+	"94E" -- "100D" [penwidth=1]
+	"98D" [fillcolor="#D3A4FF" style=radial]
+	"100D" [fillcolor="#D3A4FF" style=radial]
+	"98D" -- "100D" [penwidth=1]
+	"98D" [fillcolor="#D3A4FF" style=radial]
+	"103D" [fillcolor="#D3A4FF" style=radial]
+	"98D" -- "103D" [penwidth=1]
+	"100D" [fillcolor="#D3A4FF" style=radial]
+	"103D" [fillcolor="#D3A4FF" style=radial]
+	"100D" -- "103D" [penwidth=1]
+}

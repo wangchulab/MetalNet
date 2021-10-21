@@ -1,0 +1,6 @@
+// The Round Table
+graph {
+	"388E" [fillcolor="#FFA6FF" style=radial]
+	"393H" [fillcolor="#66B3FF" style=radial]
+	"388E" -- "393H" [penwidth=1]
+}

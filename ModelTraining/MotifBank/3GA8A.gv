@@ -1,0 +1,21 @@
+// The Round Table
+graph {
+	"4C" [fillcolor="#FFED97" style=radial]
+	"41C" [fillcolor="#FFED97" style=radial]
+	"4C" -- "41C" [penwidth=1]
+	"4C" [fillcolor="#FFED97" style=radial]
+	"7C" [fillcolor="#FFED97" style=radial]
+	"4C" -- "7C" [penwidth=1]
+	"4C" [fillcolor="#FFED97" style=radial]
+	"38C" [fillcolor="#FFED97" style=radial]
+	"4C" -- "38C" [penwidth=1]
+	"7C" [fillcolor="#FFED97" style=radial]
+	"41C" [fillcolor="#FFED97" style=radial]
+	"7C" -- "41C" [penwidth=1]
+	"7C" [fillcolor="#FFED97" style=radial]
+	"38C" [fillcolor="#FFED97" style=radial]
+	"7C" -- "38C" [penwidth=1]
+	"41C" [fillcolor="#FFED97" style=radial]
+	"38C" [fillcolor="#FFED97" style=radial]
+	"41C" -- "38C" [penwidth=1]
+}
