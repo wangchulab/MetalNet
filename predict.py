@@ -2,18 +2,26 @@
 # coding: utf-8
 
 
-import sys,os
-import pandas as pd
-from autogluon.tabular import TabularPredictor
+import os
 import pickle
-import numpy as np
-import networkx as nx
-from graphviz import Graph as DOTGraph
+import sys
 from collections import Counter
 
+import networkx as nx
+import numpy as np
+import pandas as pd
+from autogluon.tabular import TabularPredictor
+from graphviz import Graph as DOTGraph
 
 predictor = TabularPredictor.load("./FINAL_automl_600_auc_diffmsa01/")
 
+
+import string
+
+deletekeys = dict.fromkeys(string.ascii_lowercase)
+deletekeys["."] = None
+deletekeys["*"] = None
+translation = str.maketrans(deletekeys)
 
 
 alphabet='CHDENSTKGQYLAVRIMFWP-'
@@ -38,6 +46,7 @@ def parse_aln2seqmtx(filename,limit=-1):
     for line in f.readlines():
         if line[0]=='>':
             continue
+        line = line.translate(translation)
         line = line.strip()
         sequence.append(line)
     f.close()
