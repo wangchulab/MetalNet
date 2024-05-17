@@ -4,6 +4,8 @@ We developed a coevolution-based machine learning method named “MetalNet” to
 Contact: <chuwang@pku.edu.cn>, <yao.cheng69@pku.edu.cn>, <wendao@pku.edu.cn>
 
 ## Requirements  
+Python == 3.6.13
+
 [autogluon](https://github.com/awslabs/autogluon) ==0.2.0    
 
 numpy==1.19.5
