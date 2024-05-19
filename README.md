@@ -3,6 +3,9 @@ We developed a coevolution-based machine learning method named “MetalNet” to
 
 Contact: <chuwang@pku.edu.cn>, <yao.cheng69@pku.edu.cn>, <wendao@pku.edu.cn>
 
+## Server
+We have developed a server that can predict metal binding sites [online](http://152.136.132.42:8080/). This is a novel implementation with enhanced performance and higher efficiency. We welcome you to try it out.
+
 ## Requirements  
 Python == 3.6.13
 
